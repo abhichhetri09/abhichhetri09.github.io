@@ -1,0 +1,222 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+#page-wrapper{
+  position: relative;
+}
+header{ 
+  top: 0;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+   background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,87,110,1) 100%, rgba(144,175,230,1) 100%, rgba(0,212,255,1) 100%);
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.9),
+      rgba(160, 160, 206, 0.7)
+    ), url(https://i1.wp.com/www.betranslated.com/wp-content/uploads/2019/06/translation-students-1.jpg?resize=795%2C531&ssl=1);
+  background-size: cover;
+  background-positon: center;
+}
+.logo{
+  width: 350px;
+  height: auto;
+  margin-top: 6px;
+  float: left;
+}
+#nav{
+  font-weight: 400;
+}
+#nav-bar {
+  float: right;
+  line-style: none;
+  margin-top: 30px;
+}
+li {
+  display: inline-block;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  padding:5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+li.active a{
+  border: 1px solid white;
+}
+li a:hover{
+  border: 1px solid white;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: px;
+  margin-top: 50px;
+}
+h1{
+  font-size: 50px;
+   font-family: 'Shift', sans-serif; 
+  color: white;
+  margin-top: 80px;
+}
+#hero input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#hero input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #077ce9;
+}
+
+#hero input[type="submit"]:hover {
+  background-color: #0349a5;
+  transition: background-color 1s;
+}
+
+#Courses {
+  margin-top: 120px;
+}
+
+#Courses .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 15vw;
+  color: white;
+  font-size: 64px;
+}
+@media (max-width: 550px) {
+  #Courses .icon {
+    display: none;
+  }
+}
+#Courses .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  #Courses .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: px;
+  }
+}
+
+@media (max-width: 650px) {
+  #Courses {
+    margin-top: 0;
+  }
+}
+h2{
+  font-size: 25px;
+   font-family: 'Shift', sans-serif; 
+  color: white;
+}
+p{
+  font-family: 'Shift', sans-serif;
+  color: white;
+}
+.grid{
+  display: flex;
+}
+#Material {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#Material > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+footer {
+  margin-top: 30px;
+  background-color: #171915;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+.container1{
+  border-radius: 5px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(197,161,221,0.31117021276595747) 37%, rgba(144,175,230,1) 100%, rgba(0,212,255,1) 100%);
+  padding: 10px;
+  margin: 50px;
+    height: 53%;
+     color: white;
+ font-size: 20px;
+ font-family: 'Shift', sans-serif;
+}
+h3{
+ color: white;
+ font-size: 30px;
+ font-family: 'Shift', sans-serif;
+ text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+  background-color: #077ce9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0349a5;
+  transition: background-color 1s;
+}
+.column {
+  margin: inherit;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
